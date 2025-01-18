@@ -1,0 +1,27 @@
+.container-fluid{
+    background-color: $color-principal;
+    width: 100%;
+}
+.navbar-brand {
+    width: 96px;
+    height: 70px;
+    margin-left: 110px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar-expand-lg .navbar-nav{
+    font-size:16rem;
+}
+.navbar-nav{
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 10px;
+}
+img.icons{
+    width: 30px;
+    height: 35px;
+    display: inline;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    font-weight: 600;
+}

@@ -10,81 +10,38 @@ html{
     font-size: 1px;
 }
 /* header */
-header nav{
-    font-size: 20rem;
-    font-weight: 600;
-    font-style: normal;
+.container-fluid{
     background-color:#35BFFE;
-    height: 204px;
-    width: 100vw;
+  width: 100%;
 }
-header nav img.logo{
-    width: 156px;
-    height: 106px;
-    margin-left: 20px;
-
+.navbar-brand {
+    width: 96px;
+    height: 70px;
+    margin-left: 110px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-header nav h2{
-    text-align: left;
-    font-size: 16rem;
-    font-weight: 500;
-    font-style: normal;
-    color: #808080;
-    background-color: #ffff;
-    border-radius: 40px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 35px; 
-    padding-right: 456px;
-    width: 819px;
-    display: inline;
-    margin-left: 100px;
+.navbar-expand-lg .navbar-nav{
+    font-size:16rem;
 }
-header nav img.lupa{
-    margin-left: -55px;
-    margin-bottom: -7px;
+.navbar-nav{
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 10px;
 }
-header nav h3{
-    background-color: #FE6A2A;
-    width: 111px;
-    height: 24px;
-    padding-right: 33px;
-    padding-left: 33px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    font-weight: 600;
-    border-radius: 40px;
-    font-size: 16rem;
-    text-align: center;
-    display: inline;
-    margin-left: 66px;
-    color: #ffff;
-}
-
-header nav img.icons{
+img.icons{
     width: 30px;
     height: 35px;
-    margin-left:50px;
     display: inline;
 }
-nav ul.nav-2 {
-    margin-top: 39px;
-    padding-bottom: 18px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    font-weight: 600;
 }
-nav ul.nav-2 li a{
-    color: #ffff;
-    padding-right: 70px;
-    text-decoration: none;
-}
-
 /*hero-section*/
 main .hero img{
     align-content: center;
     margin-left: 110px;
-    width: 1220px;
+    width: 80%;
     padding-top: 48px;
     border-radius: 20px;
 }
@@ -136,7 +93,7 @@ main section.seccion-2{
 
 h4.non-grid-item{
     position: absolute;
-    top: 1120px;
+    top: 1000px;
     font-size: 25rem;
     font-weight: 600;
     color: black;
@@ -247,7 +204,7 @@ main section.seccion-productos{
 
 main section.seccion-productos h4{
     position: absolute;
-    top: 625px;
+    top: 535px;
     font-size: 25rem;
     font-weight: 600;
     color: black;
@@ -357,7 +314,7 @@ main section.seccion-exoticos{
 
 main section.seccion-exoticos h4{
     position: absolute;
-    top: 625px;
+    top: 535px;
     font-size: 25rem;
     font-weight: 600;
     color: black;
@@ -426,7 +383,7 @@ main.seccion-nosotros{
  }
  main section.seccion-servicios h4{
     position: absolute;
-    top: 625px;
+    top: 535px;
     font-size: 25rem;
     font-weight: 600;
     color: black;
@@ -637,5 +594,6 @@ margin-bottom: 10px;
 }
 
 /* media queries */
+
 
 

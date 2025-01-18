@@ -1,0 +1,555 @@
+// inicio
+
+main {
+    .hero {
+        img {
+            align-content: center;
+            margin-left: 110px;
+            width: 80%;
+            padding-top: 48px;
+            border-radius: 20px;
+        }
+    }
+}
+
+main {
+    h4 {
+        @include fonts(600, 23rem, #000);
+        text-align: left;
+        padding-bottom: 48px;
+        padding-top: 48px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+main {
+    section.seccion-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+main {
+    section.seccion-1 {
+        div {
+            background-color: #ffff;
+            box-shadow: 0px 0px 5px 3px #00000046;
+            padding: 20px;
+            border-radius: 100%;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+main {
+    section.seccion-1 {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+}
+
+main {
+    section.seccion-2 {
+        display: grid;
+        width: 85%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 548px 548px 548px;
+        row-gap: 83px;
+        column-gap: 48px;
+        margin-top: 200px;
+        margin-left: 110px;
+        height: 1250px;
+    }
+}
+
+main {
+    h4.non-grid-item {
+        position: absolute;
+        top: 1000px;
+        @include fonts(600, 25rem, #000);
+        padding-bottom: 48px;
+        padding-top: 48px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+main {
+    section {
+        div.productos {
+            box-shadow: 0px 0px 5px 3px #00000046;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+main {
+    div.productos {
+        img {
+            height: 329px;
+            border-radius: 40px;
+        }
+    }
+}
+
+div {
+    img.img-fixe {
+        width: 190px;
+        border-radius: 40px;
+    }
+}
+
+section {
+    div.productos {
+        div.text {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 15px;
+            width: 228px;
+        }
+    }
+}
+
+div.text {
+    h3 {
+        @include fonts(300, 12rem, #000)
+    }
+}
+
+div.text {
+    h2 {
+        @include fonts(500, 16rem, #000);
+        margin-top: 5px;
+    }
+}
+
+main {
+    section {
+        div.text {
+            h4 {
+                @include fonts(600, 22rem, #000);
+                height: 5px;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+// descuentos 
+
+main {
+    section.seccion-productos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 85%;
+        grid-template-rows: 370px 370px 370px;
+        row-gap: 240px;
+        column-gap: 48px;
+        margin-top: 150px;
+        margin-left: 110px;
+    }
+}
+
+main {
+    section.seccion-productos {
+        h4 {
+            position: absolute;
+            top: 535px;
+            @include fonts(600, 25rem, #000);
+            padding-bottom: 48px;
+            padding-top: 48px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+}
+
+main {
+    section {
+        div.productos-descuento {
+            box-shadow: 0px 0px 5px 3px #00000046;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 580px;
+        }
+    }
+}
+
+main {
+    section {
+        div.productos-descuento {
+            img {
+                width: auto;
+                height: 329px;
+                border-radius: 40px;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+main {
+    section {
+        div.productos-descuento {
+            h5 {
+                @include fonts(400, 12rem, #000)
+            }
+        }
+    }
+}
+
+main {
+    section {
+        div.productos-descuento {
+            h2 {
+                @include fonts(500, 16rem, #000);
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+h3.button-1 {
+    @include fonts(500, 18rem, #ffff);
+    margin-top: 10px;
+    width: 80%;
+    justify-content: space-around;
+    background-color: $color-principal;
+    border-radius: 14px;
+    height: 59px;
+    text-align: center;
+    padding-top: 17px;
+    margin-bottom: 30px;
+
+    &:hover {
+        background-color: $color-hover;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 25%);
+        transform: scale(1.05);
+    }
+}
+
+div.texto {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 228px;
+}
+
+div.texto {
+    h3 {
+        @include fonts(600, 18rem, #000);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+div.texto {
+    h3.button {
+        @include fonts(500, 18rem, #fff);
+        background-color: $color-secundario;
+        border-radius: 14px;
+        height: 59px;
+        text-align: center;
+        padding-top: 17px;
+
+        &:hover {
+            background-color: $color-hover-2;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 25%);
+            transform: scale(1.05);
+        }
+    }
+}
+
+h3.button-2 {
+    @include fonts(500, 18rem, #fff);
+    background-color: $color-principal;
+    border-radius: 14px;
+    height: 59px;
+    text-align: center;
+    padding-top: 13px;
+    margin-bottom: 30px;
+    padding-top: 17px;
+
+    &:hover {
+        background-color: $color-hover;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 25%);
+        transform: scale(1.05);
+    }
+}
+
+div.productos-descuento {
+    img.img-3 {
+        width: 343px;
+        height: 300px;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 28px;
+    }
+}
+
+// exoticos
+
+main {
+    section.seccion-exoticos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 85%;
+        row-gap: 70px;
+        column-gap: 48px;
+        margin-top: 150px;
+        margin-left: 110px;
+        margin-bottom: 50px;
+    }
+}
+
+main {
+    section.seccion-exoticos {
+        h4 {
+            @include fonts(600, 25rem, #000);
+            position: absolute;
+            top: 535px;
+            padding-bottom: 48px;
+            padding-top: 48px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        h2 {
+            @include fonts(400, 25rem, #000);
+            margin-top: 30px;
+        }
+    }
+}
+
+div.productos-exoticos {
+    box-shadow: 0px 0px 5px 3px #00000046;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        width: auto;
+        height: 235px;
+        margin-bottom: 20px;
+    }
+}
+
+// nosotros
+
+.seccion-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 48px;
+    width: 85%;
+    margin-left: 110px;
+
+}
+
+
+.seccion-info {
+    h3 {
+        @include fonts(600, 30rem, #000);
+        padding-bottom: 30px;
+    }
+
+    img {
+        width: 100%;
+        height: 475px;
+        padding-bottom: 20px;
+        margin-top: 55px;
+    }
+
+    h4 {
+        @include fonts(400, 18rem, #000);
+        margin-bottom: 48px;
+    }
+}
+
+// servicios
+
+main {
+    section.seccion-servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 85%;
+        row-gap: 70px;
+        column-gap: 48px;
+        margin-top: 150px;
+        margin-left: 110px;
+        margin-bottom: 50px;
+
+        h4 {
+            @include fonts(600, 25rem, #000);
+            position: absolute;
+            padding-bottom: 48px;
+            padding-top: 0px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        div {
+            box-shadow: 0px 0px 5px 3px #00000046;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+
+            h3 {
+                @include fonts(400, 20rem, #000);
+                margin-top: 30px;
+                width: 80%;
+            }
+
+            h2 {
+                @include fonts(400, 25rem, #000);
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+div {
+    img.img-arreglo {
+        margin-top: 15px;
+    }
+}
+
+main {
+    section.formulario {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 110px;
+        margin-top: 80px;
+        box-shadow: 0px 0px 5px 3px #00000046;
+        border-radius: 55px;
+        width: 85%;
+        margin-bottom: 80px;
+    }
+}
+
+div.seccion-1-servicios {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-left: 40px;
+
+    h4 {
+        @include fonts(500, 16rem, #000);
+        margin: 0 0 0 0;
+        padding: 10px 0 0 0;
+        justify-content: flex-start;
+    }
+
+    h3 {
+        @include fonts(600, 18rem, #000);
+        margin-top: 10px;
+    }
+}
+
+div.seccion-2-servicios {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+
+    img {
+        width: 250px;
+        height: 255px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        @include fonts(500, 18rem, #000);
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    h4 {
+        @include fonts(500, 16rem, #000);
+        display: flex;
+        justify-content: flex-start;
+        height: 20px;
+    }
+
+    h5 {
+        @include fonts(500, 10rem, #000);
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+}
+
+div.mb-2 {
+    @include fonts(400, 13rem, #000);
+    width: 80%;
+    border: 1 solid black;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.form-select {
+    @include fonts(400, 13rem, #000);
+    border-radius: 100px;
+    height: 42px;
+    width: 80%;
+    padding-left: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+
+}
+
+div.mb-3 {
+    @include fonts(400, 13rem, #000);
+    width: 80%;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.form-control {
+    @include fonts(400, 13rem, #000);
+    padding-left: 16px;
+    border-radius: 100px;
+    height: 42px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+div.mb-4 {
+    @include fonts(400, 13rem, #000);
+    width: 80%;
+    border: 1 solid black;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.btn-success {
+    @include fonts(400, 14rem, #fff);
+    background-color: $color-boton-3;
+    border: $color-boton-3;
+    border-radius: 100px;
+    padding: 3px 2px 3px 2px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
