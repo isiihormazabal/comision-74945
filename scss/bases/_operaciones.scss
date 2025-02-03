@@ -6,7 +6,6 @@ $color-hover: #31A9DF;
 $color-hover-2: #E75F25;
 $color-boton-3: #22EE33;
 
-
 // mixin
 
 @mixin fonts ($weight, $size, $color){
@@ -14,5 +13,6 @@ $color-boton-3: #22EE33;
     font-size: $size;
     color: $color;
 }
+
 
 

@@ -16,6 +16,7 @@
     justify-content: space-evenly;
     width: 90%;
     margin-top: 10px;
+    --bs-nav-link-color: rgb(255 255 255);
 }
 img.icons{
     width: 30px;
@@ -25,3 +26,5 @@ img.icons{
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     font-weight: 600;
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffffff;}
