@@ -8,11 +8,8 @@ $color-boton-3: #22EE33;
 
 // mixin
 
-@mixin fonts ($weight, $size, $color){
+@mixin fonts ($weight, $size, $color) {
     font-weight: $weight;
     font-size: $size;
     color: $color;
 }
-
-
-

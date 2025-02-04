@@ -1,0 +1,450 @@
+@media (max-width: 1285px) {
+    main {
+        section {
+            &.seccion-1 {
+                div {
+                    height: 130px;
+                    width: 130px;
+                }
+            }
+
+            &.seccion-2 {
+                width: 70%;
+                grid-template-columns: 1fr 1fr;
+                margin-left: 193px;
+            }
+
+            &.seccion-exoticos {
+                h4 {
+                    top: 475px;
+                }
+            }
+
+            &.seccion-productos {
+                h4 {
+                    top: 480px;
+                }
+            }
+        }
+    }
+
+    h3.button-1 {
+        margin-top: 37px;
+    }
+
+    footer {
+        margin-top: 600px;
+    }
+
+    div.seccion-2-servicios {
+        img {
+            margin-top: 60px;
+        }
+    }
+}
+
+@media (max-width: 1130px) {
+    main {
+        h1 {
+            font-size: 20rem;
+        }
+
+        section {
+            &.seccion-1 {
+                div {
+                    height: 120px;
+                    width: 120px;
+                }
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+
+            &.seccion-exoticos,
+            &.seccion-productos,
+            &.seccion-servicios {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            &.seccion-exoticos,
+            &.seccion-productos {
+                margin-top: 200px;
+            }
+
+            &.seccion-servicios {
+                row-gap: 30px;
+            }
+        }
+    }
+
+    div.seccion-2-servicios {
+
+        h3,
+        h4,
+        img,
+        h5 {
+            display: none;
+        }
+    }
+
+    .btn-success {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 1000px) {
+    main {
+        h1 {
+            font-size: 18rem;
+        }
+
+        h4.non-grid-item {
+            font-size: 18rem;
+        }
+
+        div.productos img {
+            height: 292px;
+        }
+
+        section {
+            &.seccion-1 {
+                div {
+                    height: 100px;
+                    width: 96px;
+                }
+            }
+
+            &.seccion-exoticos,
+            &.seccion-productos {
+                margin-top: 90px;
+                width: 80%;
+            }
+
+            &.seccion-productos {
+                margin-top: 130px;
+            }
+
+            &.seccion-exoticos {
+
+                h2,
+                h4 {
+                    font-size: 18rem;
+                }
+
+                h4 {
+                    top: 375px;
+                }
+            }
+
+            &.seccion-productos {
+                h4 {
+                    top: 400px;
+                    font-size: 18rem;
+                }
+            }
+
+            &.seccion-servicios {
+                width: 80%;
+                margin-top: 50px;
+
+                div {
+
+                    h2,
+                    h3,
+                    h4 {
+                        font-size: 18rem;
+                    }
+                }
+            }
+
+            &.formulario {
+                display: none;
+            }
+        }
+
+        div.productos-descuento {
+            img {
+                height: 245px;
+
+                &.img-3 {
+                    width: 275px;
+                    height: 214px;
+                }
+            }
+
+            height: 525px;
+        }
+    }
+
+    div.text {
+        h2 {
+            font-size: 13rem;
+        }
+
+        h3 {
+            font-size: 10rem;
+        }
+    }
+
+    footer {
+        column-gap: 15px;
+
+        section {
+            font-size: 13rem;
+
+            h4 {
+                font-size: 16rem;
+            }
+        }
+    }
+
+    div.productos-exoticos img {
+        height: 195px;
+        margin-bottom: 10px;
+    }
+
+    h3.button-2 {
+        height: 50px;
+        padding-top: 15px;
+    }
+
+    .seccion-info {
+        h3 {
+            font-size: 20rem;
+        }
+
+        h4 {
+            font-size: 15rem;
+        }
+
+        img {
+            height: 400px;
+            margin-top: 0px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    $navbar-toggler-font-size: 25rem;
+    $navbar-toggler-padding-y: 1rem;
+    $navbar-toggler-padding-x: 1.5rem;
+    $navbar-toggler-border-radius: 10px;
+    $navbar-toggler-color: #ffffff;
+
+    .navbar-toggler {
+        font-size: $navbar-toggler-font-size;
+        padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+        border-radius: $navbar-toggler-border-radius;
+        color: $navbar-toggler-color;
+    }
+
+    img.icons {
+        display: none;
+    }
+}
+
+@media (max-width: 875px) {
+    main {
+        section.seccion-2 {
+            grid-template-rows: 500px 500px 500px;
+            row-gap: 60px;
+            column-gap: 30px;
+            margin-top: 130px;
+            width: 78%;
+            margin-left: 96px;
+        }
+
+        h4.non-grid-item {
+            padding-top: 20px;
+        }
+
+        section.seccion-exoticos h4,
+        section.seccion-productos h4 {
+            top: 340px;
+        }
+
+        section.seccion-productos {
+            margin-top: 85px;
+        }
+    }
+
+    footer {
+        margin-top: 420px;
+    }
+
+    div.productos-descuento {
+        img {
+            height: 242px;
+        }
+
+        height: 515px;
+    }
+}
+
+@media (max-width: 760px) {
+    main {
+        h1 {
+            display: none;
+        }
+
+        section.seccion-1 {
+            display: none;
+        }
+
+        div.productos {
+            img {
+                height: 255px;
+            }
+        }
+
+        section div.productos-descuento {
+            img {
+                height: 275px;
+            }
+
+            height: 535px;
+        }
+    }
+
+    footer {
+        height: 435px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 66px;
+        row-gap: 10px;
+        justify-content: center;
+
+        section {
+            li.img-rrss {
+                display: none;
+            }
+        }
+
+        ul.rrss {
+            li {
+                h4 {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    img,
+    svg {
+        width: 200px;
+    }
+
+    div {
+        img.img-arreglo {
+            width: 170px;
+        }
+    }
+
+    .seccion-info {
+        img {
+            height: 305px;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    main {
+        h4.non-grid-item {
+            padding-top: 0px;
+            font-size: 13rem;
+        }
+
+        section.seccion-2 {
+            grid-template-rows: 365px 365px 365px;
+            row-gap: 30px;
+            margin-top: 90px;
+        }
+
+        div.productos {
+            img {
+                height: 195px;
+            }
+        }
+
+        div {
+            img.img-fixe {
+                width: 150px;
+            }
+
+            text {
+                h3 {
+                    display: none;
+                }
+
+                h4 {
+                    font-size: 15rem;
+                    height: 0px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        h3.button-1 {
+            margin-top: 30px;
+            font-size: 16rem;
+            height: 42px;
+            padding-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    div.productos-exoticos {
+        img {
+            height: 155px;
+            margin-bottom: -10px;
+        }
+    }
+
+    main {
+
+        section.seccion-exoticos,
+        section.seccion-productos {
+            h4 {
+                top: 270px;
+                font-size: 15rem;
+            }
+        }
+
+        section div.productos-descuento {
+            img {
+                height: 216px;
+            }
+
+            h5 {
+                display: none;
+            }
+
+            h2 {
+                font-size: 13rem;
+            }
+
+            height: 460px;
+        }
+
+        section.seccion-productos h4 {
+            top: 284px;
+            font-size: 16rem;
+        }
+
+        div.texto h3 {
+            margin-top: 5px;
+        }
+
+        div.texto h3.button {
+            font-size: 16rem;
+            height: 50px;
+            padding-top: 15px;
+        }
+    }
+}

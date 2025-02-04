@@ -41,11 +41,13 @@ img.icons {
   display: inline;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
   font-weight: 600;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
   color: #ffffff;
 }
 
@@ -606,6 +608,301 @@ ul.rrss li h4 {
 
 footer section li.img-rrss {
   margin-top: 40px;
+}
+
+@media (max-width: 1285px) {
+  main section.seccion-1 div {
+    height: 130px;
+    width: 130px;
+  }
+  main section.seccion-2 {
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 193px;
+  }
+  main section.seccion-exoticos h4 {
+    top: 475px;
+  }
+  main section.seccion-productos h4 {
+    top: 480px;
+  }
+  h3.button-1 {
+    margin-top: 37px;
+  }
+  footer {
+    margin-top: 600px;
+  }
+  div.seccion-2-servicios img {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 1130px) {
+  main h1 {
+    font-size: 20rem;
+  }
+  main section.seccion-1 div {
+    height: 120px;
+    width: 120px;
+  }
+  main section.seccion-1 img {
+    width: 70px;
+    height: 70px;
+  }
+  main section.seccion-exoticos, main section.seccion-productos, main section.seccion-servicios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main section.seccion-exoticos, main section.seccion-productos {
+    margin-top: 200px;
+  }
+  main section.seccion-servicios {
+    row-gap: 30px;
+  }
+  div.seccion-2-servicios h3,
+  div.seccion-2-servicios h4,
+  div.seccion-2-servicios img,
+  div.seccion-2-servicios h5 {
+    display: none;
+  }
+  .btn-success {
+    margin-left: 45px;
+  }
+}
+@media (max-width: 1000px) {
+  main h1 {
+    font-size: 18rem;
+  }
+  main h4.non-grid-item {
+    font-size: 18rem;
+  }
+  main div.productos img {
+    height: 292px;
+  }
+  main section.seccion-1 div {
+    height: 100px;
+    width: 96px;
+  }
+  main section.seccion-exoticos, main section.seccion-productos {
+    margin-top: 90px;
+    width: 80%;
+  }
+  main section.seccion-productos {
+    margin-top: 130px;
+  }
+  main section.seccion-exoticos h2,
+  main section.seccion-exoticos h4 {
+    font-size: 18rem;
+  }
+  main section.seccion-exoticos h4 {
+    top: 375px;
+  }
+  main section.seccion-productos h4 {
+    top: 400px;
+    font-size: 18rem;
+  }
+  main section.seccion-servicios {
+    width: 80%;
+    margin-top: 50px;
+  }
+  main section.seccion-servicios div h2,
+  main section.seccion-servicios div h3,
+  main section.seccion-servicios div h4 {
+    font-size: 18rem;
+  }
+  main section.formulario {
+    display: none;
+  }
+  main div.productos-descuento {
+    height: 525px;
+  }
+  main div.productos-descuento img {
+    height: 245px;
+  }
+  main div.productos-descuento img.img-3 {
+    width: 275px;
+    height: 214px;
+  }
+  div.text h2 {
+    font-size: 13rem;
+  }
+  div.text h3 {
+    font-size: 10rem;
+  }
+  footer {
+    column-gap: 15px;
+  }
+  footer section {
+    font-size: 13rem;
+  }
+  footer section h4 {
+    font-size: 16rem;
+  }
+  div.productos-exoticos img {
+    height: 195px;
+    margin-bottom: 10px;
+  }
+  h3.button-2 {
+    height: 50px;
+    padding-top: 15px;
+  }
+  .seccion-info h3 {
+    font-size: 20rem;
+  }
+  .seccion-info h4 {
+    font-size: 15rem;
+  }
+  .seccion-info img {
+    height: 400px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-toggler {
+    font-size: 25rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  img.icons {
+    display: none;
+  }
+}
+@media (max-width: 875px) {
+  main section.seccion-2 {
+    grid-template-rows: 500px 500px 500px;
+    row-gap: 60px;
+    column-gap: 30px;
+    margin-top: 130px;
+    width: 78%;
+    margin-left: 96px;
+  }
+  main h4.non-grid-item {
+    padding-top: 20px;
+  }
+  main section.seccion-exoticos h4,
+  main section.seccion-productos h4 {
+    top: 340px;
+  }
+  main section.seccion-productos {
+    margin-top: 85px;
+  }
+  footer {
+    margin-top: 420px;
+  }
+  div.productos-descuento {
+    height: 515px;
+  }
+  div.productos-descuento img {
+    height: 242px;
+  }
+}
+@media (max-width: 760px) {
+  main h1 {
+    display: none;
+  }
+  main section.seccion-1 {
+    display: none;
+  }
+  main div.productos img {
+    height: 255px;
+  }
+  main section div.productos-descuento {
+    height: 535px;
+  }
+  main section div.productos-descuento img {
+    height: 275px;
+  }
+  footer {
+    height: 435px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 66px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  footer section li.img-rrss {
+    display: none;
+  }
+  footer ul.rrss li h4 {
+    display: none;
+  }
+  img,
+  svg {
+    width: 200px;
+  }
+  div img.img-arreglo {
+    width: 170px;
+  }
+  .seccion-info img {
+    height: 305px;
+  }
+}
+@media (max-width: 630px) {
+  main h4.non-grid-item {
+    padding-top: 0px;
+    font-size: 13rem;
+  }
+  main section.seccion-2 {
+    grid-template-rows: 365px 365px 365px;
+    row-gap: 30px;
+    margin-top: 90px;
+  }
+  main div.productos img {
+    height: 195px;
+  }
+  main div img.img-fixe {
+    width: 150px;
+  }
+  main div text h3 {
+    display: none;
+  }
+  main div text h4 {
+    font-size: 15rem;
+    height: 0px;
+    padding-top: 10px;
+  }
+  main h3.button-1 {
+    margin-top: 30px;
+    font-size: 16rem;
+    height: 42px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  footer {
+    margin-top: 0;
+  }
+  div.productos-exoticos img {
+    height: 155px;
+    margin-bottom: -10px;
+  }
+  main section.seccion-exoticos h4,
+  main section.seccion-productos h4 {
+    top: 270px;
+    font-size: 15rem;
+  }
+  main section div.productos-descuento {
+    height: 460px;
+  }
+  main section div.productos-descuento img {
+    height: 216px;
+  }
+  main section div.productos-descuento h5 {
+    display: none;
+  }
+  main section div.productos-descuento h2 {
+    font-size: 13rem;
+  }
+  main section.seccion-productos h4 {
+    top: 284px;
+    font-size: 16rem;
+  }
+  main div.texto h3 {
+    margin-top: 5px;
+  }
+  main div.texto h3.button {
+    font-size: 16rem;
+    height: 50px;
+    padding-top: 15px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

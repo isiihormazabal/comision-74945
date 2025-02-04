@@ -1,11 +1,12 @@
-footer{
+footer {
     width: 100%;
     height: 238px;
-    background-color:$color-principal;
+    background-color: $color-principal;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 66px;
 }
+
 footer {
     section {
         @include fonts(400, 16rem, #ffff);
@@ -15,6 +16,7 @@ footer {
         margin-left: 40px;
     }
 }
+
 footer {
     section {
         h4 {
@@ -25,31 +27,31 @@ footer {
     }
 }
 
-footer{
-    section{
-        ul.rrss{
+footer {
+    section {
+        ul.rrss {
             width: 176px;
             height: 86px;
             display: grid;
             grid-template-columns: 0fr 1fr 1fr 1fr 1fr;
             row-gap: 10px;
-            }
-        }
-}
-
-ul.rrss{
-    li{
-        h4{
-        position: absolute;
-        top:auto;
         }
     }
 }
 
-footer{
-    section{
-        li.img-rrss{
-            margin-top:40px;
+ul.rrss {
+    li {
+        h4 {
+            position: absolute;
+            top: auto;
+        }
+    }
+}
+
+footer {
+    section {
+        li.img-rrss {
+            margin-top: 40px;
         }
     }
 }
